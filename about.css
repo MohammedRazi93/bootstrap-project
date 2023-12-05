@@ -340,10 +340,7 @@ ol, ul {
             font-weight: 400;
             line-height: 2.4;
         }
-        .my-4{
-         
-            display: none !important;
-        }
+        
         .py-5 {
             padding-top: 3rem!important;
             padding-bottom: 0px !important;
