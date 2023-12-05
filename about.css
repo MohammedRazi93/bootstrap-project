@@ -192,6 +192,9 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.cards p{
+    color: yellow !important;
+}
 body {
     font-family: "Jost",sans-serif;
     font-weight: normal;
