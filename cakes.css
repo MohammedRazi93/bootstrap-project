@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
    
 }
 
@@ -112,6 +112,9 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
+.cakes{
+    font-family: "Poiret One",cursive;
+}
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
     background-color: black !important;
@@ -127,7 +130,9 @@ body {
     flex: 1 1 auto;
     color: white;
 }
-
+.btn{
+    padding-right: 20px;
+    }
 .slider-bg2 {
     background-image: url(images/banner.webp);
     margin-top: 100px;
@@ -158,12 +163,15 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     flex: 1 1 auto;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: bolder;
+font-family: "Jost",sans-serif; 
     color: yellow;
+    border: 2px solid yellow;
 }
 .btn-group-vertical>.btn, .btn-group>.btn:hover{
+    transition: 1s ease-in-out;
     color: white;
-    background-color: rgba(255, 255, 0, 0.829);
+    background-color:yellow ;
     
 }
 .text-body-secondary {
@@ -171,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(160 184 208)!important;
 }
 .btn_02:hover {
-    background-color:#E5BF4A ;
+    background-color:yellow ;
 }
 .nav-link:hover{
     color: yellow !important;
@@ -192,7 +200,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .btn_02:hover {
-    background-color: rgb(231, 162, 34);
+    transition: 1s ease-in-out;
+    background-color: yellow;
 }   
 
 .text-body-secondary {
@@ -206,6 +215,7 @@ h1, h2, h3, h4, h5, h6 {
     background: black;
     width: 100%;
 }
+
 #home{
     color:grey !important;
 }
@@ -241,6 +251,14 @@ h1, h2, h3, h4, h5, h6 {
             .slider-bg2 {
                 background-image: url(images/banner.webp);
                 margin-top: 55px;
+            }
+            .w-100 {
+                width: 100%!important;
+                margin-top: 71px;
+            }
+            
+            *{
+                overflow-x: hidden !important;
             }
         }
     @media(max-width:750px){

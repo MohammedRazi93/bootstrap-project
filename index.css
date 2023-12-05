@@ -5,12 +5,12 @@ font-family: "Jost",sans-serif; */
 *{
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
    
 }
 body{
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* .top li{
@@ -269,7 +269,7 @@ body{
     background-color: black !important ;
     color: white !important;
 }
-.btn-secondary{
+.btn{
 padding-right: 20px;
 }
 .symbol1{
@@ -311,6 +311,9 @@ padding-right: 20px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 26px;
+}
+*{
+    overflow-x: hidden !important;
 }
 
 }

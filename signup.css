@@ -111,6 +111,9 @@ body {
 .nav-link:hover{
     color: yellow !important;
 }
+.btn{
+    padding-right: 20px;
+    }
 
 .btn_02 {
     color: white !important;

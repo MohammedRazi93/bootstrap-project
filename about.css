@@ -5,7 +5,7 @@ font-family: "Jost",sans-serif; */
 *{
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
    
 }
 /* 
@@ -248,7 +248,7 @@ ol, ul {
 }
 
 .btn_02:hover {
-    background-color:#E5BF4A ;
+    background-color:yellow ;
 }
 .nav-link:hover{
     color: yellow !important;
@@ -270,13 +270,17 @@ ol, ul {
 
 }
 .btn_02:hover {
-    background-color: rgb(231, 162, 34);
+    transition: 1s ease-in-out;
+    background-color: yellow;
 }   
 
 .text-body-secondary {
     --bs-text-opacity: 1;
     color: rgb(160 184 208)!important;
 }
+.btn{
+    padding-right: 20px;
+    }
 .container1{
     position: fixed;
     z-index: 10;
@@ -324,12 +328,19 @@ ol, ul {
                 background-image: url(images/banner.webp);
                 margin-top: 55px;
             }
+            .w-100 {
+                width: 100%!important;
+                margin-top: 71px;
+            }
             .about h1{
                 display: none;
             }
             .about{
                 padding-left: 10px;
                 padding-right: 10px;
+            }
+            *{
+                overflow-x: hidden !important;
             }
         }
     @media(max-width:750px){

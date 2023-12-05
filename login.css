@@ -128,7 +128,9 @@ body {
 .btn_02:hover {
     background-color: rgb(231, 162, 34);
 }   
-
+.btn{
+    padding-right: 20px;
+    }
 .text-body-secondary {
     --bs-text-opacity: 1;
     color: rgb(160 184 208)!important;
