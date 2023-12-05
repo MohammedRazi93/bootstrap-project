@@ -313,12 +313,6 @@ padding-right: 20px;
     padding-right: 26px;
 }
 
-.h2, h2 {
-    font-size: calc(1.325rem + .9vw);
-    font-size: 24px;
-}
-
-
 }
 @media(max-width:1000px){
     .lead {
