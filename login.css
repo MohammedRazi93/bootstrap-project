@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+   
+}
+.form-floating>.form-control, .form-floating>.form-control-plaintext {
+    padding: 1rem 0.75rem;
+    margin-bottom: 20px;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+.m-auto {
+    margin: auto!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+main {
+    display: block;
+}
+
+.homeimages{
+    display: flex;
+font-family: "Poiret One",cursive;
+
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white !important ;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+}
+.login .form-floating{
+    color: black;
+    font-weight: 450;
+}
+
+/* .align-items-center {
+    align-items: center!important;
+}
+
+
+.flex-wrap {
+    flex-wrap: wrap!important;
+}
+.d-flex {
+    display: flex!important;
+    width: 100%;
+} */
+
+.footer ul{
+    list-style: none;
+}
+.footer-bottom-area .footer-border {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 40px;
+    padding-bottom: 1px;
+}
+
+body {
+    font-family: "Jost",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 38px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color:black;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: white;
+    background-color: black;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+    position: relative;
+    flex: 1 1 auto;
+    color: white;
+}
+.btn_02:hover {
+    background-color:#E5BF4A ;
+}
+.nav-link:hover{
+    color: yellow !important;
+}
+
+.btn_02 {
+    color: white !important;
+    border: 1px solid rgba(255,255,255,0.2);
+    display: inline-block;
+    padding: 14px 36px 13px 39px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    background: none;
+    border-radius: 0px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    font-family: "Poiret One",cursive;
+
+}
+.btn_02:hover {
+    background-color: rgb(231, 162, 34);
+}   
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: rgb(160 184 208)!important;
+}
+.container1{
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    background: black;
+    width: 100%;
+}
+.login{
+    margin-top: 110px;
+}
