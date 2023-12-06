@@ -293,7 +293,9 @@ ol, ul {
         margin-left: calc(-.5 * var(--bs-gutter-x));
         justify-content: center;
     }
-    
+    .navbar-toggler-icon {
+        filter: brightness(5.5);
+    }
     
     .symbol1{
         padding-left: 10px;

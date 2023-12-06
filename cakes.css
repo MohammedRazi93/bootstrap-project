@@ -218,6 +218,9 @@ font-family: "Jost",sans-serif;
     background: black;
     width: 100%;
 }
+.navbar-toggler-icon {
+    filter: brightness(5.5);
+}
 
 #home{
     color:grey !important;
