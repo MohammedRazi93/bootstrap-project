@@ -293,6 +293,8 @@ ol, ul {
         margin-left: calc(-.5 * var(--bs-gutter-x));
         justify-content: center;
     }
+    
+    
     .symbol1{
         padding-left: 10px;
         display: flex;
@@ -349,6 +351,7 @@ ol, ul {
             font-weight: 400;
             line-height: 2.4;
         }
+        
     }
     @media(max-width:400px){
         .slider-area .hero-caption.hero-caption2 h2 {

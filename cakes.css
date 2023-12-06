@@ -113,7 +113,7 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 .cakes{
-    font-family: "Poiret One",cursive;
+    font-family: "Jost",sans-serif;
 }
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
@@ -160,6 +160,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
 }
 .btn-group-vertical>.btn, .btn-group>.btn {
+    font-family: "Jost",sans-serif; 
+}
+/* .btn-group-vertical>.btn, .btn-group>.btn {
     position: relative;
     flex: 1 1 auto;
     font-size: 15px;
@@ -173,7 +176,7 @@ font-family: "Jost",sans-serif;
     color: white;
     background-color:yellow ;
     
-}
+} */
 .text-body-secondary {
     --bs-text-opacity: 1;
     color: rgb(160 184 208)!important;
